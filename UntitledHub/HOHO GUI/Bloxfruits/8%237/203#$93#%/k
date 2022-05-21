@@ -1,0 +1,113 @@
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "HoHo";
+ Text = "10% Complete";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+Wait(1)
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "HoHo";
+ Text = "20% Complete";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+
+Wait(2)
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "HoHo";
+ Text = "40% Complete";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+Wait(3)
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "HoHo";
+ Text = "80% Complete";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+Wait(4)
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "HoHo";
+ Text = "99% Complete";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+
+Wait(6)
+local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "HoHo";
+ Text = "Hoho Has Been Succesfully Executed";
+ Icon = "";
+ Duration = 10;
+ Button1 = "Okay!";
+ Callback = NotificationBindable;
+})
+Wait(0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
